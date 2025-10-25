@@ -8,11 +8,12 @@ pygame.init()
 my_agent = UserInputAgent()
 
 #Input your file path here in SubmittedAgent if you are loading a model:
-opponent = SubmittedAgent()
+opponent = SubmittedAgent(file_path='xxx')
 
 match_time = 99999
 
 # Run a single real-time match
+# run_realtime_match()
 run_match(
     agent_1=my_agent,
     agent_2=opponent,
